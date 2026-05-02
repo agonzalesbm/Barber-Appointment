@@ -1,26 +1,33 @@
 #header-container {
-    box-sizing: border-box;
-    display: flex;
-    height: 15vh;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4px;
+  grid-area: navbar;
+  box-sizing: border-box;
+  display: flex;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
 }
 
 #links-container {
-    display: flex;
-    gap: 2.4rem;
+  display: flex;
+  gap: 2.4rem;
+  list-style-type: none;
+  padding: 0;
 }
 
 #title-logo {
-    font-family: var(--secondary-font);
-    font-size: 3.2rem;
-    text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 0.8;
 }
 
 #book-button {
-    color: white;
-    background-color: var(--primary);
-    width: 14rem;
-    height: 4rem;
+  color: white;
+  background-color: var(--primary);
+  width: 14rem;
+  height: 4rem;
 }

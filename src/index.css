@@ -1,7 +1,8 @@
 @import "./styles/header.css";
+@import "./styles/home.css";
 
 :root {
-  --bg: #1a1a1a;
+  --bg: #111111;
   --golden-darker: #c99244;
   --sandy-clay: #d9af75;
   --primary: var(--golden-darker);
@@ -14,4 +15,20 @@
   background-color: var(--bg);
   color: var(--text);
   font-family: var(--primary-font);
+  padding: 0 64px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "navbar"
+    "main"
+    "footer";
+  /* TODO: add a radial-gradient/background pattern */
+}
+
+#main {
+  grid-area: main;
 }

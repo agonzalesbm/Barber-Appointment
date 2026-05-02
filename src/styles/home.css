@@ -1,0 +1,47 @@
+#home-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 15vh);
+  grid-template-areas:
+    ". . img img"
+    "paragraph . img img"
+    ". . where where"
+    "precision precision precision ."
+    ". meets meets .";
+}
+
+#img-home {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid var(--primary);
+  grid-area: img;
+}
+
+#home-paragraph {
+  grid-area: paragraph;
+  width: 260px;
+}
+
+#where-txt {
+  font-family: var(--secondary-font);
+  /* font-size: 10vw; */
+  font-size: clamp(3rem, 10vw, 12.5rem);
+  margin: 0;
+  grid-area: where;
+}
+
+#precision-txt {
+  font-family: var(--secondary-font);
+  /* font-size: 10vw; */
+  font-size: clamp(3rem, 10vw, 12.5rem);
+  margin: 0;
+  grid-area: precision;
+}
+
+#meets-text {
+  font-family: var(--secondary-font);
+  /* font-size: 10vw; */
+  font-size: clamp(3rem, 10vw, 12.5rem);
+  margin: 0;
+  grid-area: meets;
+}
