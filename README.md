@@ -12,3 +12,6 @@ Project oriented to book barber appointments.
 - [X] Implement service section.
 - [X] Implement a card for service section.
 - [] Ask for content for service cards.
+- [X] Get inspiration for the team/about us section.
+- [X] Implement team section.
+- [X] Implement secondary bg color.
