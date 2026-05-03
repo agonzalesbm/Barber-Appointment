@@ -1,5 +1,7 @@
 @import "./styles/header.css";
 @import "./styles/home.css";
+@import "./styles/serviceCard.css";
+@import "./styles/service.css";
 
 :root {
   --bg: #111111;

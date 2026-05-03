@@ -1,0 +1,13 @@
+.title-lines {
+  font-size: 5vw;
+  margin: 0;
+  line-height: 0.8;
+  font-family: var(--secondary-font);
+}
+
+#service-card-grid {
+  display: grid;
+  padding: 20vh 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4vw;
+}

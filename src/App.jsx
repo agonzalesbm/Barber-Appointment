@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Service from "./components/Service";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <div id="main">
         <Home />
+        <Service />
       </div>
     </>
   );

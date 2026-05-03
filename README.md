@@ -9,4 +9,6 @@ Project oriented to book barber appointments.
 - [] Search new image for home page.
 - [X] Implement initial home section.
 - [] Implement a background loop for sections.
-- [] Implement service section.
+- [X] Implement service section.
+- [X] Implement a card for service section.
+- [] Ask for content for service cards.
