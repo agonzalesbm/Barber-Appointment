@@ -10,7 +10,6 @@ const Team = () => {
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
-
       // TODO: review the color borders
       // width: "100vw"
     }}>
@@ -41,11 +40,11 @@ const Team = () => {
     </p>
     <div style={{
       display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+      gridTemplateColumns: "repeat(3, 1fr)",
       gap: 16,
-      justifyItems: "center",
-      width: "100%",
-      padding: "20vh"
+      width: "90%",
+      height: "60vh",
+      padding: "10vh"
     }}>
       <TeamCard name={"Leo"} tag={"Chief"} img={profileImg}/>
       <TeamCard name={"Alex"} tag={"Beard specialist"} img={profileImg} alignSelf={"bottom"}/>

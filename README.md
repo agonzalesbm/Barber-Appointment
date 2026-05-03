@@ -15,3 +15,5 @@ Project oriented to book barber appointments.
 - [X] Get inspiration for the team/about us section.
 - [X] Implement team section.
 - [X] Implement secondary bg color.
+- [X] Redesign the team member card.
+- [] Add social media to member card.
