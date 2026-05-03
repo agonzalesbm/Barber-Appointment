@@ -1,4 +1,4 @@
-import image from "../assets/barber-table.jpg";
+import image from "../assets/hero-2.png";
 import "../index.css";
 
 const Home = () => {

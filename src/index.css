@@ -2,14 +2,17 @@
 @import "./styles/home.css";
 @import "./styles/serviceCard.css";
 @import "./styles/service.css";
+@import "./styles/team.css";
 
 :root {
   --bg: #111111;
+  --bg-secondary: #f2f4f3;
   --golden-darker: #c99244;
   --sandy-clay: #d9af75;
   --primary: var(--golden-darker);
   --secondary: var(--sandy-clay);
   --text: var(--golden-darker);
+  --text-secondary: black;
   --white: white;
   --primary-font: "Roboto Condensed", sans-serif;
   --secondary-font: "Lora", serif;
@@ -17,7 +20,6 @@
   background-color: var(--bg);
   color: var(--text);
   font-family: var(--primary-font);
-  padding: 0 64px;
 }
 
 body {

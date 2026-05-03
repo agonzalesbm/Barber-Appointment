@@ -5,7 +5,8 @@ const Service = () => {
   return (
     <div style={{
       display: "flex",
-      flexDirection: "column"
+      flexDirection: "column",
+      padding: "0 64px"
     }}>
       <div style={{
         display: "flex",

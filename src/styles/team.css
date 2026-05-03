@@ -1,0 +1,6 @@
+#team-card-container {
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 16px,
+}

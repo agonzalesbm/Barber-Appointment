@@ -7,7 +7,7 @@
 
 #service-card-grid {
   display: grid;
-  padding: 20vh 0;
+  padding-top: 20vh;
   grid-template-columns: repeat(2, 1fr);
   gap: 4vw;
 }
