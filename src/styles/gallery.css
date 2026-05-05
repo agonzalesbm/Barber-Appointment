@@ -1,11 +1,11 @@
 #gallery-container {
   display: grid;
+  grid-template-columns: repeat(2, 35vw);
   grid-template-areas:
     "gal ."
     "img le"
     "pn ry";
   margin: 0;
-  width: "80%";
   padding: 0 64;
 }
 

@@ -1,9 +1,12 @@
-import "../index.css";
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 const PhotoGallery = ({ photos, text }) => {
   const [index, setIndex] = useState(0);
   const lengthRef = useRef(photos.length);
+
+  useEffect(() => {
+    console.log(index);
+  }, [index]);
 
   const handlePrev = useCallback(() => {
     setIndex(prev => {
@@ -28,8 +31,8 @@ const PhotoGallery = ({ photos, text }) => {
         display: "flex",
         flexDirection: "column",
         gridArea: "img",
-        height: "40vh",
-        width: "40vw",
+        height: "max(30vh, 100%)",
+        width: "max(60vh, 100%)",
         alignSelf: "center",
         justifySelf: "center"
       }}>
@@ -37,31 +40,22 @@ const PhotoGallery = ({ photos, text }) => {
           src={`${photos[index]}`}
           style={{
             height: "100%",
-            width: "100%"
+            width: "calc(100% + 3vw)",
           }}
         />
       </div>
       <div style={{
         gridArea: "pn",
-        color: "var(--text-secondary)",
-        display: "flex",
-        flexDirection: "column",
+        color: "var(--text-secondary)"
       }}>
         <p>{text}</p>
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            gap: "2.5rem"
-          }}
-        >
+        <div>
           <button
             onClick={() => handlePrev()}
             className="buttonGallery"
           >
             ←  PREVIOUS
           </button>
-          <p>|</p>
           <button
             onClick={() => handleNext()}
             className="buttonGallery"

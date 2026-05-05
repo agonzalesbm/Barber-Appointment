@@ -1,11 +1,15 @@
 import "../index.css";
 import PhotoGallery from "./PhotosGallery";
-import p1 from "../assets/hero-2.png";
-import p2 from "../assets/hero.png";
+import p1 from "../assets/p1.jpg";
+import p2 from "../assets/p2.jpg";
+import p3 from "../assets/p3.jpg";
+import p4 from "../assets/p4.avif";
 
 const photos = [
   p1,
-  p2
+  p2,
+  p3,
+  p4
 ];
 
 const Gallery = () => {
@@ -17,12 +21,10 @@ const Gallery = () => {
       width: "100%",
       boxSizing: "border-box",
       alignItems: "center",
-      padding: "0px 64px"
     }}>
       <div id="gallery-container">
         <p style={{
-          gridArea: "gal",
-          justifySelf: "end"
+          gridArea: "gal"
         }}
           className="gallery-txt"
         >

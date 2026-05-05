@@ -22,3 +22,4 @@ Project oriented to book barber appointments.
 - [X] Improve service with padding.
 - [ ] Implement a photo gallery for gallery section.
 - [X] Fix extra space that draw unneded line.
+- [ ] Fix resize of image on gallery section.
