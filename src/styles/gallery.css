@@ -1,0 +1,19 @@
+#gallery-container {
+  display: grid;
+  grid-template-areas:
+    "gal ."
+    "img le"
+    "pn ry";
+  margin: 0;
+  width: "80%";
+  padding: 0 64;
+}
+
+.gallery-txt {
+  font-family: var(--secondary-font);
+  color: var(--text-secondary);
+  font-size: 18vw;
+  margin: 0;
+  line-height: 0.8;
+  padding: 16px;
+}

@@ -4,9 +4,12 @@ import ServiceCard from "./ServiceCard";
 const Service = () => {
   return (
     <div style={{
+      boxSizing: "border-box",
       display: "flex",
       flexDirection: "column",
-      padding: "0 64px"
+      width: "100%",
+      padding: "0 64px",
+      backgroundColor: "var(--bg)"
     }}>
       <div style={{
         display: "flex",
@@ -15,7 +18,7 @@ const Service = () => {
         gap: 24
       }}>
         <p style={{
-          magin: 0,
+          margin: 0,
           marginBottom: "5vh",
           fontSize: "1.4rem",
           lineHeight: 0

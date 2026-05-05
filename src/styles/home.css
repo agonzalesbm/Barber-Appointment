@@ -10,6 +10,8 @@
     ". meets meets .";
   margin-bottom: 150px;
   padding: 0 64px;
+  background-color: var(--bg);
+  box-sizing: border-box;
 }
 
 #img-home {

@@ -1,3 +1,4 @@
+import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Service from "./components/Service";
@@ -12,6 +13,7 @@ function App() {
         <Home />
         <Service />
         <Team />
+        <Gallery />
       </div>
     </>
   );

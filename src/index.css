@@ -3,6 +3,7 @@
 @import "./styles/serviceCard.css";
 @import "./styles/service.css";
 @import "./styles/team.css";
+@import "./styles/gallery.css";
 
 :root {
   --bg: #111111;
@@ -31,6 +32,17 @@ body {
     "main"
     "footer";
   /* TODO: add a radial-gradient/background pattern */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* IMPORTANT for extra borders FIX */
+  width: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* IMPORTANT for extra borders FIX */
+  width: 100%;
 }
 
 #main {
