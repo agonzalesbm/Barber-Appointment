@@ -5,11 +5,12 @@
   height: 15vh;
   justify-content: space-between;
   align-items: center;
-  padding: 4px 0;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: transparent;
   padding: 0 64px;
+  z-index: 1000;
+  width: 100%;
 }
 
 #links-container {

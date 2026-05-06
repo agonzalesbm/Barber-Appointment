@@ -3,6 +3,8 @@
 @import "./styles/serviceCard.css";
 @import "./styles/service.css";
 @import "./styles/team.css";
+@import "./styles/gallery.css";
+@import "./styles/photosGallery.css";
 
 :root {
   --bg: #111111;
@@ -31,8 +33,21 @@ body {
     "main"
     "footer";
   /* TODO: add a radial-gradient/background pattern */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* IMPORTANT for extra borders FIX */
+  width: 100%;
+  overflow-y: hidden; /* FIX extra scrollbar on chrome versions */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* IMPORTANT for extra borders FIX */
+  width: 100%;
 }
 
 #main {
   grid-area: main;
+  margin-top: 20vh;
 }

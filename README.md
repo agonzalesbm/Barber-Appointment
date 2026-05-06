@@ -6,14 +6,20 @@ Project oriented to book barber appointments.
 - [X] Create Vite ReactJs project.
 - [X] Setup semi and quotes rules on eslint file.
 - [X] Search initial image for home section.
-- [] Search new image for home page.
+- [ ] Search new image for home page.
 - [X] Implement initial home section.
-- [] Implement a background loop for sections.
+- [ ] Implement a background loop for sections.
 - [X] Implement service section.
 - [X] Implement a card for service section.
-- [] Ask for content for service cards.
+- [ ] Ask for content for service cards.
 - [X] Get inspiration for the team/about us section.
 - [X] Implement team section.
 - [X] Implement secondary bg color.
 - [X] Redesign the team member card.
-- [] Add social media to member card.
+- [ ] Add social media to member card.
+- [X] Get inspiration for gallery section.
+- [ ] Implement gallery section.
+- [X] Improve service with padding.
+- [ ] Implement a photo gallery for gallery section.
+- [X] Fix extra space that draw unneded line.
+- [ ] Fix resize of image on gallery section.
