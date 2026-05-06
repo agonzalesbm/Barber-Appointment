@@ -37,7 +37,8 @@ const PhotoGallery = ({ photos, text }) => {
           src={`${photos[index]}`}
           style={{
             height: "100%",
-            width: "100%"
+            width: "100%",
+            objectFit: "cover"
           }}
         />
       </div>
