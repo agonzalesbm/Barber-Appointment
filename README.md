@@ -18,8 +18,9 @@ Project oriented to book barber appointments.
 - [X] Redesign the team member card.
 - [ ] Add social media to member card.
 - [X] Get inspiration for gallery section.
-- [ ] Implement gallery section.
+- [X] Implement gallery section.
 - [X] Improve service with padding.
-- [ ] Implement a photo gallery for gallery section.
+- [X] Implement a photo gallery for gallery section.
 - [X] Fix extra space that draw unneded line.
-- [ ] Fix resize of image on gallery section.
+- [X] Fix resize of image on gallery section.
+- [ ] Implement footer section
