@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -14,6 +15,7 @@ function App() {
         <Service />
         <Team />
         <Gallery />
+        <Footer />
       </div>
     </>
   );

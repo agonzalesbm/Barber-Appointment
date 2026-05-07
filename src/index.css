@@ -5,6 +5,7 @@
 @import "./styles/team.css";
 @import "./styles/gallery.css";
 @import "./styles/photosGallery.css";
+@import "./styles/footer.css";
 
 :root {
   --bg: #111111;
@@ -35,19 +36,27 @@ body {
   /* TODO: add a radial-gradient/background pattern */
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* IMPORTANT for extra borders FIX */
   width: 100%;
-  overflow-y: hidden; /* FIX extra scrollbar on chrome versions */
+  /* IMPORTANT for extra borders FIX */
+  overflow-x: hidden;
+  /* FIX extra scrollbar on chrome versions */
+  overflow-y: hidden;
 }
 
 html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* IMPORTANT for extra borders FIX */
+  overflow-x: hidden;
+  /* IMPORTANT for extra borders FIX */
   width: 100%;
 }
 
 #main {
   grid-area: main;
   margin-top: 20vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text)
 }
