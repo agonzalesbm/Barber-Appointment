@@ -23,4 +23,13 @@ Project oriented to book barber appointments.
 - [X] Implement a photo gallery for gallery section.
 - [X] Fix extra space that draw unneded line.
 - [X] Fix resize of image on gallery section.
-- [ ] Implement footer section
+- [X] Implement footer section
+- [] Review a possible change ui on all sections.
+- [X] Use a background img on home/hero section.
+- [X] Add a black transparent filter on home/hero section.
+- [X] Change distribution of elements on header.
+- [X] Change the distribution of elements on home/hero section.
+- [X] Create css for primary and secondary buttons.
+- [X] Add a scissor svg on "book your cut" button with css pseudoclass.
+- [X] Change the header button for a <a/> with "book now" text.
+

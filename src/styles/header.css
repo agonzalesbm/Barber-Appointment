@@ -26,10 +26,3 @@
   text-align: center;
   line-height: 0.8;
 }
-
-#book-button {
-  color: white;
-  background-color: var(--primary);
-  width: 14rem;
-  height: 4rem;
-}
