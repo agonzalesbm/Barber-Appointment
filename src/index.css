@@ -58,4 +58,9 @@ a {
   align-items: center;
 }
 
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
 /* TODO: add a radial-gradient/background pattern */

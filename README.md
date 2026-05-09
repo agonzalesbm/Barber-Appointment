@@ -16,7 +16,6 @@ Project oriented to book barber appointments.
 - [X] Implement team section.
 - [X] Implement secondary bg color.
 - [X] Redesign the team member card.
-- [ ] Add social media to member card.
 - [X] Get inspiration for gallery section.
 - [X] Implement gallery section.
 - [X] Improve service with padding.
@@ -32,4 +31,4 @@ Project oriented to book barber appointments.
 - [X] Create css for primary and secondary buttons.
 - [X] Add a scissor svg on "book your cut" button with css pseudoclass.
 - [X] Change the header button for a <a/> with "book now" text.
-
+- [ ] Add social media to member card.

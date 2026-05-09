@@ -11,7 +11,8 @@ const Team = () => {
       flexDirection: "column",
       alignItems: "center",
       boxSizing: "borderBox",
-      width: "100%"
+      width: "100%",
+      padding: "20px 0"
     }}>
       <p style={{
         fontSize: "clamp(3rem, 8vw, 10.5rem)",

@@ -21,6 +21,7 @@ const Gallery = () => {
       width: "100%",
       boxSizing: "border-box",
       alignItems: "center",
+      padding: "80px 0"
     }}>
       <div id="gallery-container">
         <p style={{
