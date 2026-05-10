@@ -31,4 +31,5 @@ Project oriented to book barber appointments.
 - [X] Create css for primary and secondary buttons.
 - [X] Add a scissor svg on "book your cut" button with css pseudoclass.
 - [X] Change the header button for a <a/> with "book now" text.
-- [ ] Add social media to member card.
+- [X] Add social media to member card.
+- [ ] Implement responsive for tablet and mobile devices.
