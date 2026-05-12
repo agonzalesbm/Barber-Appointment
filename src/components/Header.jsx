@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../index.css";
 
 const Header = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <header id="header-container">

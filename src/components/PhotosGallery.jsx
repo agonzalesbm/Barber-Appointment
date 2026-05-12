@@ -8,7 +8,8 @@ const PhotoGallery = ({ photos, text }) => {
   const handlePrev = useCallback(() => {
     setIndex(prev => {
       const newIndex = prev - 1;
-      return newIndex >= 0 ? newIndex : prev;
+      return newIndex >= 0 ?
+        newIndex : lengthRef.current - 1;
     }
     );
   }, []);
@@ -17,7 +18,7 @@ const PhotoGallery = ({ photos, text }) => {
     setIndex(prev => {
       const newIndex = prev + 1;
       return newIndex < lengthRef.current ?
-        newIndex : prev;
+        newIndex : 0;
     }
     );
   }, []);
@@ -29,16 +30,15 @@ const PhotoGallery = ({ photos, text }) => {
         flexDirection: "column",
         gridArea: "img",
         height: "40vh",
-        width: "40vw",
-        alignSelf: "center",
-        justifySelf: "center"
+        width: "100%"
       }}>
         <img
           src={`${photos[index]}`}
           style={{
             height: "100%",
             width: "100%",
-            objectFit: "cover"
+            objectFit: "cover",
+            padding: "0 3rem"
           }}
         />
       </div>
@@ -48,12 +48,12 @@ const PhotoGallery = ({ photos, text }) => {
         display: "flex",
         flexDirection: "column",
       }}>
-        <p>{text}</p>
         <div
           style={{
             display: "flex",
             width: "100%",
-            gap: "2.5rem"
+            gap: "2.5rem",
+            padding: ".9rem 0",
           }}
         >
           <button
@@ -70,6 +70,7 @@ const PhotoGallery = ({ photos, text }) => {
             NEXT →
           </button>
         </div>
+        <p>{text}</p>
       </div>
     </>
   );

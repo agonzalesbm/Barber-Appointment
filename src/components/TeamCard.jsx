@@ -12,7 +12,7 @@ const TeamCard = ({ img, name, tag }) => {
       fontFamily: "var(--secondary-font)",
       display: "flex",
       flexDirection: "column-reverse",
-      height: "50vh",
+      height: "500px",
       width: "100%",
       backgroundColor: "gray"
     }}>
