@@ -38,8 +38,8 @@ const PhotoGallery = ({ photos, text }) => {
             height: "100%",
             width: "100%",
             objectFit: "cover",
-            padding: "0 3rem"
           }}
+          className="img-gallery"
         />
       </div>
       <div style={{

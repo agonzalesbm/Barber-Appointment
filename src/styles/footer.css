@@ -23,3 +23,17 @@
 .title-logo {
   font-family: var(--secondary-font);
 }
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    justify-items: start;
+    gap: 60px;
+  }
+}

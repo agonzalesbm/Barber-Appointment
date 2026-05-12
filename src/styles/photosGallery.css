@@ -5,3 +5,9 @@
   word-spacing: 1.2rem;
   background-color: transparent;
 }
+
+@media (max-width: 768px) {
+  .img-gallery {
+    padding: 0 4.5rem;
+  }
+}
