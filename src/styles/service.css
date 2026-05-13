@@ -1,13 +1,26 @@
 .title-lines {
-  font-size: 5vw;
   margin: 0;
-  line-height: 0.8;
+  line-height: 0.9;
   font-family: var(--secondary-font);
 }
 
 #service-card-grid {
   display: grid;
-  padding-top: 20vh;
+  padding: 60px;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4vw;
+  gap: 2.3rem;
+}
+
+@media (max-width: 768px) {
+  #service-card-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #service-card-grid {
+    padding: 0;
+  }
 }

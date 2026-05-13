@@ -17,3 +17,19 @@
   line-height: 0.8;
   padding: 16px;
 }
+
+.gallery-container-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #gallery-container {
+    display: none;
+  }
+
+  .gallery-container-mobile {
+    display: block;
+    width: 100%;
+    justify-items: center;
+  }
+}

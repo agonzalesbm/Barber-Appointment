@@ -11,43 +11,42 @@ const Team = () => {
       flexDirection: "column",
       alignItems: "center",
       boxSizing: "borderBox",
-      width: "100%"
-    }}>
-      <p style={{
+      width: "100%",
+      height: "auto",
+      padding: "20px 0"
+    }}
+      id="team"
+    >
+      <h1 style={{
         fontSize: "clamp(3rem, 8vw, 10.5rem)",
         fontFamily: "var(--secondary-font)",
         textAlign: "center",
         lineHeight: "0.8",
-        padding: "10vh 0"
+        padding: "10vh 0",
+        fontWeight: 400
       }}>
         CRAFTING<br />TIMELESS<br />
         LOOKS FOR<br />
         THE MODERN<br />
         GENTLEMAN<br />
-      </p>
-      <p style={{
+      </h1>
+      <h1 style={{
         magin: 0,
         marginBottom: "5vh",
         fontSize: "1.4rem",
-        lineHeight: 0
+        fontWeight: 400
       }}>
         ABOUT
-      </p>
-      <p className="title-lines" style={{
-        textAlign: "center"
+      </h1>
+      <h1 className="title-lines" style={{
+        textAlign: "center",
+        fontWeight: 400
       }}>
         MEET OUR<br />PROFESSIONALS
-      </p>
-      <div style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(3, 1fr)",
-        gap: 16,
-        width: "90%",
-        height: "60vh",
-        padding: "10vh"
-      }}>
+      </h1>
+      <div className="team-members-container">
         <TeamCard name={"Leo"} tag={"Chief"} img={profileImg} />
-        <TeamCard name={"Alex"} tag={"Beard specialist"} img={profileImg} alignSelf={"bottom"} />
+        <TeamCard name={"Alex"} tag={"Beard specialist"} img={profileImg} />
         <TeamCard name={"Dan"} tag={"Urban style"} img={profileImg} />
       </div>
     </div>

@@ -1,4 +1,6 @@
 import "../index.css";
+import igIcon from "../assets/ig-icon.svg";
+import fbIcon from "../assets/fb-icon.svg";
 
 const TeamCard = ({ img, name, tag }) => {
   return (
@@ -7,36 +9,48 @@ const TeamCard = ({ img, name, tag }) => {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      fontFamily: "var(--secondary-font)",
-      display: "flex",
-      flexDirection: "column-reverse",
-      height: "100%",
-      width: "100%",
       backgroundColor: "gray"
-    }}>
+    }}
+      className="team-card-container"
+    >
       <div style={{
         display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        height: "12%",
-        padding: "1.5vw",
+        height: "auto",
+        padding: "0.7rem",
+        justifyContent: "space-between",
         color: "var(--white)",
         background: "rgba(255, 255, 255, 0.3)",
         backdropFilter: "blur(5px)"
       }}>
-        <p style={{
-          fontSize: "2.2rem",
-          margin: 0,
-          fontFamily: "var(--secondary-font)"
+        <div>
+          <p style={{
+            fontSize: "1.5rem",
+            margin: 0,
+            fontFamily: "var(--secondary-font)"
+          }}>
+            {name}
+          </p>
+          <p style={{
+            fontSize: "0.9rem",
+            margin: 0
+          }}>
+            {tag}
+          </p>
+        </div>
+        <div style={{
+          margin: "auto 0"
         }}>
-          {name}
-        </p>
-        <p style={{
-          fontSize: "1.2rem",
-          margin: 0
-        }}>
-          {tag}
-        </p>
+          <a style={{
+            marginRight: "6px"
+          }}
+            href="#ig"
+          >
+            <img src={igIcon} className="icon" />
+          </a>
+          <a href="#fb">
+            <img src={fbIcon} className="icon" />
+          </a>
+        </div>
       </div>
     </div>
   );

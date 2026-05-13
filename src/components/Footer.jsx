@@ -1,20 +1,45 @@
 import "../index.css";
+import fbIcon from "../assets/fb-icon.svg";
+import igIcon from "../assets/ig-icon.svg";
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
         <div>
-          <h1 className="title-logo">
+          <h1 className="title-logo" style={{
+            fontWeight: "100",
+            textAlign: "center",
+            justifySelf: "left",
+            marginBottom: "8px"
+          }}>
             SHARP<br />CUT
           </h1>
           <div style={{
             display: "flex",
             flexDirection: "column",
-            gap: "0.8rem"
+            gap: "0.8rem",
           }}>
-            <a>Instagram</a>
-            <a>Facebook</a>
+            <a style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6
+            }}
+              href="#ig"
+            >
+              <img src={igIcon} className="icon"/>
+              Instagram
+            </a>
+            <a style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6
+            }}
+              href="#fb"
+            >
+              <img src={fbIcon} className="icon"/>
+              Facebook
+            </a>
           </div>
         </div>
         <div className="footer-links">
@@ -22,7 +47,7 @@ const Footer = () => {
             <h4>QUICK LINKS</h4>
             <a href="#home">Home</a>
             <a href="#service">Service</a>
-            <a href="#href">About</a>
+            <a href="#team">About</a>
             <a href="#gallery">Gallery</a>
           </div>
           <div className="footer-links-col">

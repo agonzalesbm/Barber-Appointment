@@ -1,6 +1,21 @@
-#team-card-container {
+.team-members-container {
   display: grid;
-  border: 1px solid red;
-  grid-template-columns: repeat(auto-fit, 300px);
-  gap: 16px,
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .team-members-container {
+    grid-template-columns: 1fr;
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-members-container {
+    width: 100%;
+  }
 }

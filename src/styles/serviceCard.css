@@ -1,11 +1,30 @@
 .service-card-container {
-  max-width: 20vw;
+  width: 20vw;
 }
 
 .top-line {
   border-bottom: 1px solid var(--primary);
-  max-width: 12vw;
+  max-width: 60%;
   text-align: right;
   font-family: var(--seconday-font);
   font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .service-card-container {
+    min-width: 100%;
+    padding: .8rem 2rem;
+  }
+  
+  .top-line {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .service-card-container {
+    width: 100%;
+    width: 100%;
+    padding: .8rem .1rem;
+  }
 }

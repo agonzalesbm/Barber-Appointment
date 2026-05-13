@@ -1,16 +1,19 @@
 #header-container {
-  grid-area: navbar;
   box-sizing: border-box;
   display: flex;
-  height: 15vh;
+  flex-direction: column;
+  height: auto;
   justify-content: space-between;
-  align-items: center;
   position: fixed;
   top: 0;
   background-color: transparent;
-  padding: 0 64px;
+  padding: 24px 64px;
   z-index: 1000;
   width: 100%;
+}
+
+#links-mobile-container {
+  display: none;
 }
 
 #links-container {
@@ -18,6 +21,8 @@
   gap: 2.4rem;
   list-style-type: none;
   padding: 0;
+  height: 100%;
+  align-items: center;
 }
 
 #title-logo {
@@ -27,9 +32,61 @@
   line-height: 0.8;
 }
 
-#book-button {
-  color: white;
-  background-color: var(--primary);
-  width: 14rem;
-  height: 4rem;
+.nav-icon {
+  width: 35px;
+  height: 35px;
+  stroke: var(--primary);
+  stroke-width: 2px;
+}
+
+.nav-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #header-container {
+    padding: 24px 32px
+  }
+
+  #links-container {
+    display: none;
+  }
+
+  .secondary-button.book-now {
+    display: none;
+  }
+
+  .links-mobile-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    list-style-type: none;
+    box-sizing: borde-box;
+    gap: 32px;
+  }
+
+  ul.links-mobile-container a {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--white);
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    padding: 1rem;
+  }
+
+  .nav-book-now {
+    display: block;
+    color: var(--white);
+    border: none;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .nav-button {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
 }

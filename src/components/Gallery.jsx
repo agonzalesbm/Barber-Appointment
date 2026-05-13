@@ -21,7 +21,10 @@ const Gallery = () => {
       width: "100%",
       boxSizing: "border-box",
       alignItems: "center",
-    }}>
+      padding: "80px 0"
+    }}
+      id="gallery"
+    >
       <div id="gallery-container">
         <p style={{
           gridArea: "gal"
@@ -50,6 +53,19 @@ const Gallery = () => {
         >
           RY
         </p>
+      </div>
+      <div className="gallery-container-mobile">
+        <h1 style={{
+          fontWeight: 400,
+          fontFamily: "var(--text-secondary)",
+          fontSize: "clamp(3rem, 5vw, 10rem)",
+          marginBottom: "2.5rem",
+          color: "var(--text-secondary)"
+        }}>GALLERY</h1>
+        <PhotoGallery
+          photos={photos}
+          text={"Lorem"}
+        />
       </div>
     </div>
   );
