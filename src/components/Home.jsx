@@ -37,12 +37,7 @@ const Home = () => {
             fontStyle: "italic",
             marginTop: "1.4rem"
           }}>Do it with passion or not at all</p>
-          <div style={{
-            display: "flex",
-            padding: "40px 0",
-            gap: "0.6rem",
-            alignItems: "center"
-          }}>
+          <div className="button-hero-container">
             <a className="primary-button scissors-icon">BOOK YOUR CUT</a>
             <a className="secondary-button">VIEW SERVICES</a>
           </div>

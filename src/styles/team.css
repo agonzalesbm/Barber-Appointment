@@ -13,3 +13,9 @@
     width: 85%;
   }
 }
+
+@media (max-width: 768px) {
+  .team-members-container {
+    width: 100%;
+  }
+}

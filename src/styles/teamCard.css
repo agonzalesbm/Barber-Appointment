@@ -1,0 +1,21 @@
+.team-card-container {
+  font-family: var(--secondary-font);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 500px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .team-card-container{
+    width: 400px;
+    justify-self: center
+  }
+}
+
+@media (max-width: 425px) {
+  .team-card-container{
+    width: 100%;
+    justify-self: center
+  }
+}

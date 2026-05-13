@@ -56,7 +56,7 @@ const Gallery = () => {
         <h1 style={{
           fontWeight: 400,
           fontFamily: "var(--text-secondary)",
-          fontSize: "clamp(5rem, 5vw, 10rem)",
+          fontSize: "clamp(3rem, 5vw, 10rem)",
           marginBottom: "2.5rem",
           color: "var(--text-secondary)"
         }}>GALLERY</h1>

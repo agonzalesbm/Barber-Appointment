@@ -44,3 +44,17 @@
   -webkit-mask-image: url("../assets/scissors-icon.svg");
   -webkit-mask-size: contain;
 }
+
+.button-hero-container {
+  display: flex;
+  padding: 40px 0;
+  gap: .6rem;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .button-hero-container {
+    flex-direction: column;
+    padding: 12px 0;
+  }
+}

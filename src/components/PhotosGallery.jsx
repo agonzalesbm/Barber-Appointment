@@ -29,16 +29,10 @@ const PhotoGallery = ({ photos, text }) => {
         display: "flex",
         flexDirection: "column",
         gridArea: "img",
-        height: "40vh",
         width: "100%"
       }}>
         <img
           src={`${photos[index]}`}
-          style={{
-            height: "100%",
-            width: "100%",
-            objectFit: "cover",
-          }}
           className="img-gallery"
         />
       </div>

@@ -1,5 +1,5 @@
 .service-card-container {
-  max-width: 20vw;
+  width: 20vw;
 }
 
 .top-line {
@@ -18,5 +18,13 @@
   
   .top-line {
     min-width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .service-card-container {
+    width: 100%;
+    width: 100%;
+    padding: .8rem .1rem;
   }
 }

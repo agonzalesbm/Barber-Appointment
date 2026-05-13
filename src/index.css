@@ -6,6 +6,7 @@
 @import "./styles/gallery.css";
 @import "./styles/photosGallery.css";
 @import "./styles/footer.css";
+@import "./styles/teamCard.css";
 
 :root {
   --bg: #111111;

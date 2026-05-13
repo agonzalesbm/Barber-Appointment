@@ -9,7 +9,6 @@ const ServiceCard = ({ style, title, paragraph, number }) => {
       <p style={{
         fontFamily: "var(--secondary-font)",
         fontSize: "2.3rem",
-        marginBottom: 0,
         marginTop: "8px"
       }}>
         {title}

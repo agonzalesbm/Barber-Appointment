@@ -9,13 +9,10 @@ const TeamCard = ({ img, name, tag }) => {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      fontFamily: "var(--secondary-font)",
-      display: "flex",
-      flexDirection: "column-reverse",
-      height: "500px",
-      width: "100%",
       backgroundColor: "gray"
-    }}>
+    }}
+      className="team-card-container"
+    >
       <div style={{
         display: "flex",
         height: "auto",

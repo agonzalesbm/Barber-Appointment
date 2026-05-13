@@ -8,7 +8,7 @@ const Service = () => {
       display: "flex",
       flexDirection: "column",
       width: "100%",
-      padding: "100px 64px",
+      padding: "100px 1.2rem",
       backgroundColor: "var(--bg)"
     }}>
       <div style={{
