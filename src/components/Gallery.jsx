@@ -22,7 +22,9 @@ const Gallery = () => {
       boxSizing: "border-box",
       alignItems: "center",
       padding: "80px 0"
-    }}>
+    }}
+      id="gallery"
+    >
       <div id="gallery-container">
         <p style={{
           gridArea: "gal"

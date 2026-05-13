@@ -14,7 +14,9 @@ const Team = () => {
       width: "100%",
       height: "auto",
       padding: "20px 0"
-    }}>
+    }}
+      id="team"
+    >
       <h1 style={{
         fontSize: "clamp(3rem, 8vw, 10.5rem)",
         fontFamily: "var(--secondary-font)",

@@ -47,7 +47,7 @@ const Footer = () => {
             <h4>QUICK LINKS</h4>
             <a href="#home">Home</a>
             <a href="#service">Service</a>
-            <a href="#href">About</a>
+            <a href="#team">About</a>
             <a href="#gallery">Gallery</a>
           </div>
           <div className="footer-links-col">

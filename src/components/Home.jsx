@@ -6,7 +6,9 @@ const Home = () => {
       position: "relative",
       height: "100vh",
       display: "flex"
-    }}>
+    }}
+      id="home"
+    >
       <div style={{
         backgroundColor: "rgba(0, 0, 0, 0.6)",
         height: "100%",
@@ -39,7 +41,7 @@ const Home = () => {
           }}>Do it with passion or not at all</p>
           <div className="button-hero-container">
             <a className="primary-button scissors-icon">BOOK YOUR CUT</a>
-            <a className="secondary-button">VIEW SERVICES</a>
+            <a href="#service" className="secondary-button">VIEW SERVICES</a>
           </div>
         </div>
       </div>

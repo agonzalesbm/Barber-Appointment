@@ -10,7 +10,9 @@ const Service = () => {
       width: "100%",
       padding: "100px 1.2rem",
       backgroundColor: "var(--bg)"
-    }}>
+    }}
+      id="service"
+    >
       <div style={{
         display: "flex",
         flexDirection: "column",
